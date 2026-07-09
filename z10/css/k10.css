@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 231, 98);
+    background-image: url(../kadai3/img/back.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+a:link{text-decoration: none;color: burlywood;}
+a:visited{text-decoration: none;color: rgb(0, 162, 255);}
+a:focus{text-decoration: none;color: rgb(255, 0, 0);}
+a:hover{text-decoration: none;color: rgb(0, 255, 34);}
+
+p{
+    line-height: 180%;
+}
+
+#title{
+    letter-spacing: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+
+.kome{
+    color: aliceblue;
+}
+
+.shortcut{
+    font-family: serif;
+}

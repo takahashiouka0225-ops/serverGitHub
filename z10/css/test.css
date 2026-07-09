@@ -1,0 +1,16 @@
+
+.test{
+    color: cadetblue;
+    background-color: chartreuse;
+}
+
+body
+{
+    background-image: url(../img/ooyama.jpg);
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: rgb(187, 255, 0);
+}
