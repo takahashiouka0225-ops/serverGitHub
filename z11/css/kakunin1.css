@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+img
+{
+     /* 画像の横幅をスクリーンサイズに合わせる */
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* モバイルファーストの概念で作るので、スマホの設定からしていく */
+
+/* スマホ用画面設定 */
+body
+{
+    background-color: aliceblue;
+}
+
+/* メディアクエリのデザイン */
+
+/* タブレット向け設定　(760px - 1023px) */
+
+@media screen and (min-width:760px){
+    /* ブラウザサイズが760を超えたら、ここのデザインを適用 */
+    /* スマホデザインの変更点のみを上書きする */
+    body{
+        background-color: rgb(0, 136, 255);
+    }
+}
+
+/* PC向け設定　(1024px以上) */
+
+@media screen and (min-width:1024px){
+    /* ブラウザサイズが760を超えたら、ここのデザインを適用 */
+    /* タブレットデザインの変更点のみを上書きする */
+    body{
+        background-color: rgb(0, 255, 34);
+    }
+}
